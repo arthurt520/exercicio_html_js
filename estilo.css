@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:white;
+}
+
+.container{
+    height: 100vh;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#formulario-validacao{
+    padding:20px;
+    width:400px;
+
+}
+
+#formulario-validacao h2{
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+#formulario-validacao input{
+    display:block;
+    margin-bottom: 10px;
+    width:100%;
+    padding:8px;
+}
+
+#formulario-validacao input#botao{
+    background-color: rgb(4, 173, 173);
+    border:0px;
+    color:#fff;
+}
+
+#formulario-validacao div#resposta{
+    background-color: rgb(192, 218, 218);
+    padding:15px;
+    display:none;
+}
+
+#form-limpar{
+   display:flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#limpar{
+    padding:10px;
+    margin-bottom: 10px;
+    background-color: rgb(202, 228, 250);
+    border:0px;
+
+}
+
+.formularios{
+    border:1px solid gray;
+    background-color: beige;
+}
